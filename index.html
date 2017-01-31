@@ -23,6 +23,7 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius:10px;
             }
             nav header {
                 display: flex;
@@ -36,16 +37,19 @@
             nav li {
                 display: inline-block;
                 padding: 0 10px;
+
             }
             nav a {
                 text-decoration: none;
                 color: #fff;
+                padding:10px;
             }
 
             /* main container area beneath menu */
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                padding:10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -53,6 +57,7 @@
             }
             [class=sidebar] img {
                 width: 200px;
+                padding:20px;
             }
             [class=content] {
                 flex: 1;
@@ -60,6 +65,10 @@
             }
             [class=interests] header {
                 font-size: 1.25em;
+                padding:10px;
+            }
+            [id=main-content] { 
+                padding: 20px;
             }
         </style>
         <title>Jonathan Hunt</title>
@@ -74,6 +83,7 @@
                 </ul>
             </nav>
 
+            <div id="main-content">
             <main>
                 <div class="sidebar">
                      <img src="/code.gif">
@@ -87,7 +97,7 @@
                         <ul>
                             <li>Parkour</li>
                             <li>Anime DUB</li>
-                            <li>Cooking</li>
+                            <li>Engineering</li>
                         </ul>
                     </section>
                 </div>
